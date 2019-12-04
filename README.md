@@ -26,17 +26,17 @@ github 仓库地址
 git remote add origin https://github.com/KeymonWong/JsAndObjc.git
 ```
 - "https://github.com/KeymonWong/JsAndObjc.git" 就是我在第四步时复制的那个https地址
-在这一步时如果出现错误：
-fatal:remote origin already exists
-那就先输入
-```
-git remote rm origin
-```
-再输入
-```
- git remote add origin https://github.com/KeymonWong/JsAndObjc.git
- ```
-就不会报错了。
+- 在这一步时如果出现错误：
+- fatal:remote origin already exists
+- 那就先输入
+   ```
+   git remote rm origin
+   ```
+- 再输入
+  ```
+  git remote add origin https://github.com/KeymonWong/JsAndObjc.git
+  ```
+- 就不会报错了。
 
 ## 第6步：将代码由本地仓库上传到 github 远程仓库，依次执行下列语句
 ### 6-1、 获取远程库与本地同步合并（如果远程库不为空必须做这一步，否则后面的提交会失败）：
